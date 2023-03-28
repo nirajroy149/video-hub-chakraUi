@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -10,7 +10,7 @@ import Videos from './components/Videos';
 
 export default function App() {
   return (
-    <HashRouter basename='/video-hub-chakraUi'>
+    <Router basename='/video-hub-chakraUi/'>
       <Header />
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -20,6 +20,6 @@ export default function App() {
         <Route path="/signup" element={<Signup/>}/>
       </Routes>
       <Footer />
-    </HashRouter>
+    </Router>
   );
 }
