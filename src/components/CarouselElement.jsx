@@ -30,12 +30,12 @@ export default function CarouselElement() {
     <Carousel
       autoPlay
       infiniteLoop
-      interval={2000}
+      interval={4000}
       showStatus={false}
       showThumbs={false}
       showArrows={false}
     >
-      <Box w="full" h={'100vh'}>
+      <Box w="full" h={'90vh'}>
         <Image src={pic12} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Watch The Future
