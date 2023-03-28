@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/video-hub-chakraUi/static/css/main.8eb20739.css",
+    "main.js": "/video-hub-chakraUi/static/js/main.adb3f825.js",
+    "static/media/pic1.jpg": "/video-hub-chakraUi/static/media/pic1.e12003c09fcdee587781.jpg",
+    "static/media/pic15.jpg": "/video-hub-chakraUi/static/media/pic15.cb53d114e69f9a36a236.jpg",
+    "static/media/pic12.jpg": "/video-hub-chakraUi/static/media/pic12.de6e539e613fff00b784.jpg",
+    "static/media/pic8.jpg": "/video-hub-chakraUi/static/media/pic8.2fb62c345b156791da7f.jpg",
+    "static/media/pic14.jpg": "/video-hub-chakraUi/static/media/pic14.a8e064ba4c60268a2af1.jpg",
+    "static/media/pic13.jpg": "/video-hub-chakraUi/static/media/pic13.4291b7a3c535ea3147cd.jpg",
+    "static/media/pic11.jpg": "/video-hub-chakraUi/static/media/pic11.6919bde1322924032b89.jpg",
+    "static/media/pic9.jpg": "/video-hub-chakraUi/static/media/pic9.f90edbe22f69e7c3787f.jpg",
+    "static/media/pic2.png": "/video-hub-chakraUi/static/media/pic2.1590ddf20fb913b222aa.png",
+    "static/media/pic5.jpg": "/video-hub-chakraUi/static/media/pic5.d1121f92989f8ecd3472.jpg",
+    "static/media/pic3.jpg": "/video-hub-chakraUi/static/media/pic3.6d35d69e469b6a20fdb8.jpg",
+    "index.html": "/video-hub-chakraUi/index.html",
+    "main.8eb20739.css.map": "/video-hub-chakraUi/static/css/main.8eb20739.css.map",
+    "main.adb3f825.js.map": "/video-hub-chakraUi/static/js/main.adb3f825.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eb20739.css",
+    "static/js/main.adb3f825.js"
+  ]
+}
