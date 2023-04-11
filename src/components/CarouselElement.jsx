@@ -7,13 +7,13 @@ import pic1 from '../assets/pic1.jpg';
 import pic3 from '../assets/pic3.jpg';
 import pic5 from '../assets/pic5.jpg';
 import pic8 from '../assets/pic8.jpg';
-import pic9 from '../assets/pic9.jpg';
-import pic11 from '../assets/pic11.jpg';
-import pic12 from '../assets/pic12.jpg';
-import pic13 from '../assets/pic13.jpg';
-import pic14 from '../assets/pic14.jpg';
-import pic15 from '../assets/pic15.jpg';
-import pic17 from '../assets/pic15.jpg';
+// import pic9 from '../assets/pic9.jpg';
+// import pic11 from '../assets/pic11.jpg';
+// import pic12 from '../assets/pic12.jpg';
+// import pic13 from '../assets/pic13.jpg';
+// import pic14 from '../assets/pic14.jpg';
+// import pic15 from '../assets/pic15.jpg';
+// import pic17 from '../assets/pic15.jpg';
 
 const headingOptions = {
   pos: 'absolute',
@@ -28,53 +28,52 @@ const headingOptions = {
 export default function CarouselElement() {
   return (
     <Carousel
-      autoPlay
+      // autoPlay
       infiniteLoop
-      interval={4000}
       showStatus={false}
-      showThumbs={false}
-      showArrows={false}
+      // showThumbs={false}
+      // showArrows={false}
     >
-      <Box w="full" h={'90vh'}>
-        <Image src={pic12} h="full" w={'full'} objectFit={'cover'} />
+      {/* <Box w="full" h={'80vh'}>
+        <Image src={pic12} h="80vh" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Watch The Future
         </Heading>
-      </Box>
-      <Box w="full" h={'100vh'}>
+      </Box> */}
+      {/* <Box w="full" h={'100vh'}>
         <Image src={pic5} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.900'} color={'black'} {...headingOptions}>
           Future is Gaming
         </Heading>
+      </Box> */}
+      <Box w="full" h={'90vh'}>
+        <Image src={pic8} h="full" w={'full'} objectFit={'cover'} />
+        <Heading bgColor={'whiteAlpha.800'} color={'black'} {...headingOptions}>
+          Watch The Future
+        </Heading>
       </Box>
-
-      <Box w="full" h={'100vh'}>
+      <Box w="full" h={'90vh'}>
         <Image src={pic3} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Gaming on Console
         </Heading>
       </Box>
 
-      <Box w="full" h={'100vh'}>
+      <Box w="full" h={'90vh'}>
         <Image src={pic5} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Night life is cool
         </Heading>
       </Box>
-      <Box w="full" h={'100vh'}>
-        <Image src={pic8} h="full" w={'full'} objectFit={'cover'} />
-        <Heading bgColor={'whiteAlpha.800'} color={'black'} {...headingOptions}>
-          Watch The Future
-        </Heading>
-      </Box>
-      <Box w="full" h={'100vh'}>
-        <Image src={pic9} h="full" w={'full'} objectFit={'cover'} />
+      
+      <Box w="full" h={'90vh'}>
+        <Image src={pic1} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.700'} color={'black'} {...headingOptions}>
           Future is Gaming
         </Heading>
       </Box>
 
-      <Box w="full" h={'100vh'}>
+      {/* <Box w="full" h={'100vh'}>
         <Image src={pic15} h="full" w={'full'} objectFit={'cover'} />
         <Heading bgColor={'whiteAlpha.600'} color={'black'} {...headingOptions}>
           Gaming on Console
@@ -118,7 +117,7 @@ export default function CarouselElement() {
         <Heading bgColor={'whiteAlpha.700'} color={'black'} {...headingOptions}>
           Future is Gaming
         </Heading>
-      </Box>
+      </Box> */}
     </Carousel>
   );
 }
