@@ -10,7 +10,7 @@ import Videos from './components/Videos';
 
 export default function App() {
   return (
-    <Router basename='/video-hub-chakraUi/'>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home/>}/>
